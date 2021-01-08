@@ -102,6 +102,7 @@ h3 {
 ::placeholder {
   color: var(--txt-lightgrey) !important;
 }
+
 #contact-us .form-control {
   background-color: var(--bg-form);
   border: none;
