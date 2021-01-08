@@ -84,10 +84,10 @@ h3 {
   margin-bottom: 7.5rem;
 }
 #contact-us .contact-us-container {
-  padding: 7.5rem 7.5rem 3rem 7.5rem;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   text-align: center;
     
@@ -98,11 +98,7 @@ h3 {
 #contact-us .contact-us-container p {
   color: var(--txt-grey);
 }
-#contact-us .row {
-  padding: 0 7.5rem;
-  margin: 0 auto;
-  
-}
+
 ::placeholder {
   color: var(--txt-lightgrey) !important;
 }
@@ -126,6 +122,20 @@ h3 {
   height: 3,75rem;
   width: 13.75rem;
   
+}
+#contact-us #form-button:hover {
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  background-color: var(--txt-white);
+}
+@media(min-width: 576px){
+  #contact-us .contact-us-container {
+    padding: 7.5rem 7.5rem 3rem 7.5rem;
+  }
+  #contact-us .row {
+    padding: 0 7.5rem;
+    margin: 0 auto;
+  }
 }
 
 /* Contact Us End */
