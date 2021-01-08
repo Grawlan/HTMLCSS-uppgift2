@@ -6,10 +6,13 @@
   --font-18px: 1.125rem;
   --font-40px: 2.5rem;
   --txt-white: #ffffff;
+  --txt-grey: #8a8a8a;
+  --txt-lightgrey: #cccccc;
   --primary: #1487fd;
   --secondary: #ffbb00;
   --bg-primary: #ffffff;
-  --form-bg: #fbfbfb;
+  --bg-form: #fbfbfb;
+  --btn-blue: #3096FE;
 }
 /* Default */
 * {
@@ -47,53 +50,80 @@ h3 {
 }
 /* Defaults End */
 
-/* Help Classes */
+/* Help Classes Start*/
 .container {
-  border: 1px solid black;
   width: 100%;
   padding: 0 1rem;
   margin: 0 auto;
 }
 
+.button {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.8rem 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  outline: none;
+}
+
+.button-primary {
+  background-color: var(--btn-blue);
+  color: var(--txt-white);
+} 
+/* Help Classes End */
+
+
 /* Contact Us Start */
 
-/* #contact-us .container {
-  display: flex;
-  flex-direction: column;
-
-} */
 #contact-us .contact-us-container {
-  border: 1px solid red;
-  padding: 7.5rem 7.5rem 0 7.5rem;
+  padding: 7.5rem 7.5rem 3rem 7.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
-  background-color: green;
-
+  
+}
+#contact-us .contact-us-container h3 {
+  margin-bottom: 2rem;
+}
+#contact-us .contact-us-container p {
+  color: var(--txt-grey);
 }
 #contact-us .row {
-  background-color: red;
   padding: 0 7.5rem;
   margin: 0 auto;
   
 }
+::placeholder {
+  color: var(--txt-lightgrey) !important;
+}
 #contact-us .form-control {
-  background-color: var(--form-bg);
+  background-color: var(--bg-form);
+  border: none;
 }
 #contact-us #form-message {
   resize: none;
   margin-top: 1.25rem;
+  margin-bottom: 1.875rem;
 }
 #contact-us #form-name {
   margin-right: 2rem;
-  /* margin-right: -2rem; */
 }
-/* #contact-us #form-email {
-  padding-left: 1rem;
-  margin-left: -1rem;
-} */
+#contact-us .form-btn {
+  display: flex;
+  justify-content: center;
+}
+#contact-us #form-button {
+  height: 3,75rem;
+  width: 13.75rem;
+  
+}
 
 /* Contact Us End */
 
@@ -102,6 +132,7 @@ h3 {
 footer {
   height: 18.75rem;
   background-image: url('../assets/img/footer-bg-overlay.svg'), url('../assets/img/footer-bg.svg');
+  width: 100%;
 }
 
 footer .container {
