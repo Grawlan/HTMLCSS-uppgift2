@@ -2,10 +2,14 @@
 /* font-family: 'Poppins', sans-serif; */
 
 :root {
-  --font-18px : 1.125rem;
-  --txt-primary: #ffffff;
+  --font-16px: 1rem;
+  --font-18px: 1.125rem;
+  --font-40px: 2.5rem;
+  --txt-white: #ffffff;
   --primary: #1487fd;
   --secondary: #ffbb00;
+  --bg-primary: #ffffff;
+  --form-bg: #fbfbfb;
 }
 /* Default */
 * {
@@ -20,13 +24,13 @@ head, body {
   font-size: 16px;
   line-height: 1.5;
   background-color: var(--bg-primary);
-  color: var(--txt-primary);
+  
 
 }
 
 a {
   text-decoration: none;
-  color: var(--txt-primary);
+  color: var(--txt-white);
   font-size: var(--font-18px);
   
 }
@@ -37,14 +41,61 @@ a:hover > .underline {
   border-bottom: 3px solid var(--secondary);
   padding-bottom: 4px;
 }
+h3 {
+  font-size: var(--font-40px);
+  font-weight: bold;
+}
 /* Defaults End */
 
 /* Help Classes */
 .container {
+  border: 1px solid black;
   width: 100%;
   padding: 0 1rem;
   margin: 0 auto;
 }
+
+/* Contact Us Start */
+
+/* #contact-us .container {
+  display: flex;
+  flex-direction: column;
+
+} */
+#contact-us .contact-us-container {
+  border: 1px solid red;
+  padding: 7.5rem 7.5rem 0 7.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: green;
+
+}
+#contact-us .row {
+  background-color: red;
+  padding: 0 7.5rem;
+  
+}
+#contact-us .form-control {
+  background-color: var(--form-bg);
+}
+#contact-us #form-message {
+  resize: none;
+  margin-top: 1.25rem;
+}
+#contact-us #form-name {
+  margin-right: 2rem;
+  /* margin-right: -2rem; */
+}
+/* #contact-us #form-email {
+  padding-left: 1rem;
+  margin-left: -1rem;
+} */
+
+/* Contact Us End */
+
 /* Footer Start */
 
 footer {
@@ -78,14 +129,13 @@ footer .footer-menu a {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
-
 footer .footer-social {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 footer .footer-social a{
-  color: var(--txt-primary);
+  color: var(--txt-white);
   margin: 0 0.5rem 3.625rem 0.5rem;
 }
 footer .footer-social i {
@@ -101,7 +151,7 @@ footer .footer-social i {
 }
 footer .footer-social i:hover {
   color: var(--primary);
-  background-color: #ffffff;
+  background-color: var(--bg-primary);
 }
 
 
