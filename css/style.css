@@ -80,6 +80,9 @@ h3 {
 
 /* Contact Us Start */
 
+#contact-us .container {
+  margin-bottom: 7.5rem;
+}
 #contact-us .contact-us-container {
   padding: 7.5rem 7.5rem 3rem 7.5rem;
   display: flex;
@@ -87,7 +90,7 @@ h3 {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  
+    
 }
 #contact-us .contact-us-container h3 {
   margin-bottom: 2rem;
