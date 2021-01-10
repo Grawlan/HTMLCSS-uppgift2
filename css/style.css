@@ -2,6 +2,7 @@
 /* font-family: 'Poppins', sans-serif; */
 
 :root {
+  --font-14px: 0.875rem;
   --font-15px: 0.9375rem; 
   --font-16px: 1rem;
   --font-18px: 1.125rem;
@@ -10,7 +11,7 @@
   --txt-white: #ffffff;
   --txt-grey: #8a8a8a;
   --txt-lightgrey: #cccccc;
-  --txt-darkgrey: #333333
+  --txt-darkgrey: #333333;
   --primary: #1487fd;
   --secondary: #ffbb00;
   --bg-primary: #ffffff;
@@ -66,8 +67,13 @@ h1 {
 h3 {
   font-size: var(--font-40px);
   font-weight: bold;
-  color: var(--txt-darkgrey);
+  color: var(--txt-darkgrey) !important;
+  line-height: 1.6;
 }
+p {
+  color: var(--txt-grey);
+}
+
 /* Defaults End */
 
 /* Help Classes Start*/
@@ -98,6 +104,15 @@ h3 {
 .button-yellow-white {
   background-color: var(--secondary);
   color: var(--txt-white);
+}
+.button-small-yellow {
+  width: 5.4375rem;
+  height: 1.875rem;
+  font-size: var(--font-14px);
+  color: var(--secondary) ;
+  background-color: #ffbb0026;
+  padding: 0;
+
 }
 .store-button {
   padding: 0 1rem 0 0;
@@ -271,31 +286,51 @@ header .menu-toggler {
   justify-content: space-between;
   align-items: center;
 }
-#about-us .container .mobile-with-bg {
-  border: 1px solid black;
+
+#about-us .container .phone-with-background {
+  margin-left: -8.8768rem;
+}
+
+#about-us .container .about-us-content {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('../assets/img/about-us-bg.svg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 567px;
-  margin: 0 0 0 -144.32px;
+  flex-direction: column;
+  
+ 
+  
 }
-#about-us .container .about-us-content {
-  /* border: 1px solid black; */
+#about-us .container .about-us-buttons {
   display: flex;
   justify-content: space-between;
   align-items: left;
   flex-direction: column;
-  width: 570px;
-}
-#about-us .container .about-us-buttons {
-  display: flex;
-  justify-content: left;
-  align-items: left;
    
 }
+@media(min-width: 992px) {
+  
+ 
+  #about-us .container .about-us-content .about-us-buttons {
+    flex-direction: row;
+  }
+}
+
+@media(min-width: 1200px) {
+  #about-us .container .mobile-with-bg .img-collapse {
+    display: flex;
+  }
+  #about-us .container .img-collapse {
+    display: flex;
+  }
+  #about-us .container .about-us-content {
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 10.75rem;
+    
+  }
+
+}
+
 
 
 /* About Us End */
