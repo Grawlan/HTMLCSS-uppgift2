@@ -12,7 +12,7 @@
   --txt-lightgrey: #cccccc;
   --primary: #1487fd;
   --secondary: #ffbb00;
-  --bg-primary: green;
+  --bg-primary: #ffffff;
   --bg-form: #fbfbfb;
   --btn-blue: #3096FE;
 }
@@ -31,6 +31,11 @@ head, body {
   background-color: var(--bg-primary);
   
 
+}
+body{
+  background-image: url('../assets/img/header-showcase-bg.svg');
+  background-repeat: no-repeat;
+  background-position: 50% -500%;
 }
 
 a {
