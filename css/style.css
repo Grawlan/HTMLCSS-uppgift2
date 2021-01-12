@@ -511,7 +511,7 @@ header .menu-toggler {
   height: 34.375rem;
   background-image: url('../assets/img/download-bg.svg');
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   overflow: hidden;
   width: 100%;
 }
