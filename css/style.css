@@ -366,12 +366,14 @@ header .menu-toggler {
   background-image: url('../assets/img/bg-grid.svg');
   background-repeat: no-repeat;
   background-position: left center;
+  background-color: #f5f5f5;
 }
 #features .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 12.75rem;
+  padding-bottom: 4.625rem;
+  margin-bottom: 8.125rem;
 }
 #features .container .features-content {
   display: flex;
@@ -512,12 +514,13 @@ header .menu-toggler {
   background-image: url('../assets/img/download-bg.svg');
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   overflow: hidden;
   width: 100%;
 }
 #download .container {
   display: flex;
-  justify-content: center;
+  justify-content: center; 
   align-items: center;
   text-align: center;
 }
@@ -531,6 +534,13 @@ header .menu-toggler {
   margin-right: -8.0625rem;
 }
 
+#download .container .download-content .download-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6.6875rem;
+}
+
 @media(min-width: 1200px) {
   #download .container {
     justify-content: space-between;
@@ -539,6 +549,10 @@ header .menu-toggler {
   #download .container .download-content {
     margin-right: 4rem;
   }
+  #download .container .download-content .download-buttons {
+    justify-content: flex-start;
+  
+    }
 }
 
 /* Download End */
