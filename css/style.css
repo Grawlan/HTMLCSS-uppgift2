@@ -33,15 +33,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 head, body {
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background-color: var(--bg-primary);
-  
-
 }
 body{
   background-image: url('../assets/img/header-showcase-bg.svg');
@@ -50,14 +47,11 @@ body{
   background-position: center -743px;
   width: 100%;
   height: 100%;
-  
 }
-
 a {
   text-decoration: none;
   color: var(--txt-white);
   font-size: var(--font-18px);
-  
 }
 a:hover {
   color: var(--secondary);
@@ -104,7 +98,6 @@ p {
   padding: 0 1rem;
   margin: 0 auto;
 }
-
 .button {
   display: inline-block;
   text-align: center;
@@ -162,14 +155,12 @@ header .main-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 header .main-nav .menu a {
   margin: 0 1rem;
 }
 header .main-nav .menu-collapse {
   display: none;
-
 }
 header .main-nav .button-collapse {
   display: none;
@@ -182,7 +173,6 @@ header #get-app-button {
 header #get-app-button:hover {
   border: 2px solid var(--txt-white);
   background-color: transparent;
-  
 }
 header .menu-toggler {
   font-size: 2.5rem;
@@ -203,7 +193,6 @@ header .menu-toggler {
   header .main-nav .button-collapse {
     display: flex;
   }
-  
 }
 @media(min-width: 1200) {
   header .main-nav .menu a {
@@ -262,7 +251,6 @@ header .menu-toggler {
 #showcase .showcase-content .watch-video-button:hover {
   border: 2px solid var(--txt-white);
 }
-
 @media(min-width: 992px) {
   #showcase .container {
     text-align: left;
@@ -270,7 +258,6 @@ header .menu-toggler {
   #showcase .container .img-collapse {
     display: flex;
     margin-right: -2.2rem;
-    
   }
   #showcase .showcase-content .showcase-buttons {
     justify-content: left;
@@ -291,16 +278,13 @@ header .menu-toggler {
   flex-direction: row;
   margin: 0 2.25rem;
 }
-
 @media(min-width: 992px) {
   #ecutbildning .container .ecutbildning-content .img-collapse {
     display: flex;
-    
   }
   #ecutbildning .ecutbildning-content {
     justify-content: space-between;
     align-items: center;
-    
   }
 }
 
@@ -318,7 +302,6 @@ header .menu-toggler {
 #about-us .container .phone-with-background {
   margin-left: -8.8768rem;
 }
-
 #about-us .container .about-us-content {
   display: flex;
   justify-content: center;
@@ -326,20 +309,17 @@ header .menu-toggler {
   flex-direction: column;
   text-align: center;
 }
-
 #about-us .container .about-us-buttons {
   display: flex;
   justify-content: space-between;
   align-items: left;
   flex-direction: column;
-   
 }
 @media(min-width: 992px) {
   #about-us .container .about-us-content .about-us-buttons {
     flex-direction: row;
   }
 }
-
 @media(min-width: 1200px) {
   #about-us .container {
     margin-bottom: 14.5rem;
@@ -384,9 +364,7 @@ header .menu-toggler {
 }
 #features .container .mobile-features-img {
   margin-right: -6.4375rem;
-  
 }
-
 #features .container .features-content .features-content-text {
   margin-bottom: 2.5rem;
 }
@@ -414,7 +392,6 @@ header .menu-toggler {
   align-items: flex-start;
   text-align: left;
 }
-
 @media(min-width: 1200px) {
  
   #features .container .features-content {
@@ -449,7 +426,6 @@ header .menu-toggler {
   text-align: center;
   margin-bottom: 2.125rem;
 }
-
 @media(min-width: 1200px) {
   #application-screens .container .application-screens-header {
     width: 33.526rem;
@@ -540,7 +516,6 @@ header .menu-toggler {
   justify-content: center;
   margin-bottom: 6.6875rem;
 }
-
 @media(min-width: 1200px) {
   #download .container {
     justify-content: space-between;
@@ -551,7 +526,6 @@ header .menu-toggler {
   }
   #download .container .download-content .download-buttons {
     justify-content: flex-start;
-  
     }
 }
 
@@ -569,7 +543,6 @@ header .menu-toggler {
   justify-content: center;
   align-items: center;
   text-align: center;
-    
 }
 #contact-us .contact-us-container h3 {
   margin-bottom: 2rem;
@@ -577,12 +550,10 @@ header .menu-toggler {
 #contact-us .contact-us-container p {
   color: var(--txt-grey);
 }
-
 ::placeholder {
   color: var(--txt-lightgrey) !important;
   text-align: center;
 }
-
 #contact-us .form-control {
   background-color: var(--bg-form);
   border: none;
@@ -603,7 +574,6 @@ header .menu-toggler {
 #contact-us #form-button {
   height: 3,75rem;
   width: 13.75rem;
-  
 }
 #contact-us #form-button:hover {
   color: var(--primary);
@@ -633,19 +603,16 @@ footer {
   background-position: center;
   width: 100%;
 }
-
 footer .container {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
 }
-
 footer .footer-logo img {
   margin-top: 3.6875rem;
 }
 footer .footer-menu {
-
   height: 1.5rem;
   display: flex;
   flex-wrap: wrap;
@@ -678,7 +645,6 @@ footer .footer-social i {
   text-align: center;
   border-radius: 0.5rem;
   background-color: #ffffff26;
- 
 }
 footer .footer-social i:hover {
   color: var(--primary);
@@ -696,7 +662,6 @@ footer .footer-social i:hover {
   .container {
     max-width: 960px;
   }
- 
 }
 @media(min-width: 1200px){
   .container {
