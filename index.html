@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css">
@@ -11,16 +12,16 @@
 <body>
   <header>
     <div class="container">
-      <a href="#"><img src="./assets/img/logo.svg" alt="logo"></a>
+      <a href="#"><img src="./assets/img/logo.svg" alt="logo" class="wow animate__animated animate__bounce"></a>
       <nav class="main-nav">
-        <div class="menu menu-collapse">
+        <div class="menu menu-collapse wow animate__animated animate__slideInRight">
           <a href="#"><span class="underline">Hom</span>e</a>
           <a href="#"><span class="underline">About U</span>s</a>
           <a href="#"><span class="underline">Feature</span>s</a>
           <a href="#"><span class="underline">Screen</span>s</a>
           <a href="#"><span class="underline">Contact U</span>s</a>
         </div>
-        <button class="button button-yellow-white button-collapse" id="get-app-button">Get the app</button>
+        <button class="button button-yellow-white button-collapse  wow animate__animated animate__slideInRight" id="get-app-button">Get the app</button>
         <button class="menu-toggler">
           <i class="fas fa-bars"></i>
         </button>
@@ -31,15 +32,15 @@
   <main>
     <section id="showcase">
       <div class="container">
-        <div class="showcase-content">
+        <div class="showcase-content  wow animate__animated animate__slideInLeft">
           <h1>Creative Way to Showcase Your App</h1>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis magni voluptatibus esse ut blanditiis fugit quis aspernatur adipisci!</p>
-          <div class="showcase-buttons">
+          <div class="showcase-buttons wow animate__animated animate__slideInLeft">
             <button class="button download-button">Download Now</button>
             <button class="button watch-video-button"><img src="./assets/img/Watch-video.svg" alt="Watch video"></button>
           </div>
         </div>
-        <img src="./assets/img/Mobile.svg" alt="Two cellphones" class="img-collapse">
+        <img src="./assets/img/Mobile.svg" alt="Two cellphones" class="img-collapse wow animate__animated animate__slideInRight">
       </div>
     </section>
 
@@ -56,9 +57,9 @@
 
     <section id="about-us"> 
       <div class="container">
-        <img class="img-collapse phone-with-background" src="./assets/img/iphone-with-background.svg" alt="Iphone with background">
+        <img class="img-collapse phone-with-background wow animate__animated animate__slideInLeft" src="./assets/img/iphone-with-background.svg" alt="Iphone with background">
 
-        <div class="about-us-content">
+        <div class="about-us-content wow animate__animated animate__slideInRight">
           <button class="button button-small-yellow">About Us</button>
           <h3>Easy To Search Your Items By This App</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam earum, fugiat hic consequuntur accusantium repudiandae quia asperiores impedit, nulla omnis eaque nam debitis. Temporibus, a doloremque. Dolorum doloremque eveniet perspiciatis, autem libero repellendus soluta minus debitis nobis! Vero blanditiis, eaque beatae adipisci doloremque, in provident sequi quae, molestias sunt minima.</p> 
@@ -72,7 +73,7 @@
 
     <section id="features">
       <div class="container">
-        <div class="features-content">
+        <div class="features-content wow animate__animated animate__slideInLeft">
           <button class="button button-small-yellow">Features</button>
           <h3>Easy  To Search Your Items By This App</h3>
           <p class="features-content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, minima reiciendis odit error, omnis modi et dolor voluptatibus officiis quia alias sit molestias exercitationem, similique assumenda voluptate.</p>
@@ -107,27 +108,27 @@
             </div>
           </div>
         </div>
-        <img class="mobile-features-img img-collapse" src="./assets/img/mobile-features.svg" alt="Two mobiles with yellow half-circle and blue half-moon">
+        <img class="mobile-features-img img-collapse wow animate__animated animate__slideInRight" src="./assets/img/mobile-features.svg" alt="Two mobiles with yellow half-circle and blue half-moon">
       </div>
     </section>
 
     <section id="application-screens">
       <div class="container">
-        <div class="application-screens-header">
+        <div class="application-screens-header wow animate__animated animate__fadeIn">
           <h3>Application Screens</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, voluptatum. Repellat esse magnam libero dolor in impedit quibusdam?</p>
         </div>  
-        <img id="application-screens-img" src="./assets/img/screen.svg" alt="Screens">
+        <img id="application-screens-img" src="./assets/img/screen.svg" alt="Screens" class ="wow animate__animated animate__fadeIn">
       </div>
     </section>
 
     <section id="application-statistics">
       <div class="container">
-        <div class="application-statistics-header">
+        <div class="application-statistics-header wow animate__animated animate__fadeIn">
           <h3>Application Statistics</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolore, aliquid provident magnam debitis autem temporibus. Minima, ratione.</p>
         </div>
-        <div class="info-cards">
+        <div class="info-cards wow animate__animated animate__fadeIn">
           <div class="info-card">
             <h3>+ 1430</h3>
             <p>Clients</p>
@@ -150,7 +151,7 @@
 
     <section id="download">
       <div class="container">
-        <div class="download-content">
+        <div class="download-content wow animate__animated animate__slideInLeft">
           <h2>Download the application now! to enjoy its features</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, iste! Ad velit incidunt quidem facere vel placeat officiis laudantium neque quo quia, iure unde quaerat?</p>
           <div class="download-buttons">
@@ -158,7 +159,7 @@
             <button class="button store-button"><img src="./assets/img/app-store.svg" alt="App store"></button>
           </div>
         </div>
-        <img  class="img-collapse" id="download-mobiles" src="./assets/img/download-mobiles.svg" alt="Tree cellphones stacked">
+        <img  class="img-collapse wow animate__animated animate__slideInRight" id="download-mobiles" src="./assets/img/download-mobiles.svg" alt="Tree cellphones stacked">
       </div>
     </section>
 
@@ -216,6 +217,8 @@
     </div>
 
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>  
+  <script src="./scripts/script.js"></script>
 </body>
 </html>
