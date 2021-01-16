@@ -44,9 +44,19 @@ body{
   background-image: url('../assets/img/header-showcase-bg.svg');
   background-repeat: no-repeat;
   background-attachment: inherit;
-  background-position: center -743px;
+  background-position: center -700px;
   width: 100%;
   height: 100%;
+}
+@media(min-width: 768px) {
+  body{
+    background-position: center -800px;
+  }
+}
+@media(min-width: 992px) {
+  body {
+    background-position: center -743px;
+  }
 }
 a {
   text-decoration: none;
@@ -421,6 +431,7 @@ header .menu-toggler {
   align-items: center;
   flex-direction: column;
   margin-bottom: 5.4375rem;
+  overflow: hidden;
 }
 #application-screens .container #application-screens-img {
   width: 87.011rem;
@@ -491,13 +502,14 @@ header .menu-toggler {
 /* Download Start */
 
 #download {
-  height: 34.375rem;
+  height: 40.375rem;
   background-image: url('../assets/img/download-bg.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   overflow: hidden;
   width: 100%;
+  margin-bottom: 7.5rem;
 }
 #download .container {
   display: flex;
@@ -523,6 +535,9 @@ header .menu-toggler {
   margin-bottom: 6.6875rem;
 }
 @media(min-width: 768px) {
+  #download {
+    height: 34.375rem;
+  }
   #download .container .download-content .download-buttons {
     flex-direction: row;
   }
@@ -596,7 +611,7 @@ header .menu-toggler {
 }
 @media(min-width: 768px){
   #contact-us .contact-us-container {
-    padding: 7.5rem 7.5rem 3rem 7.5rem;
+    padding: 0 7.5rem 3rem 7.5rem;
   }
   #contact-us .row {
     padding: 0 7.5rem;
