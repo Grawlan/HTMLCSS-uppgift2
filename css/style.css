@@ -280,22 +280,9 @@ header .menu-toggler {
 
 #ecutbildning .container {
   margin-bottom: 8rem;
-}
-#ecutbildning .ecutbildning-content {
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: row;
-  margin: 0 2.25rem;
-}
-@media(min-width: 992px) {
-  #ecutbildning .container .ecutbildning-content .img-collapse {
-    display: flex;
-  }
-  #ecutbildning .ecutbildning-content {
-    justify-content: space-between;
-    align-items: center;
-  }
+  justify-content: center;
 }
 
 /* EC Utbildning End */
